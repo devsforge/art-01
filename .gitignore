@@ -23,3 +23,7 @@ desktop.ini
 # Temporary files storage
 /temp/
 /tmp/
+
+### Developer's notes
+/notebooks/
+/notes/
