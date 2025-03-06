@@ -17,6 +17,16 @@ ij_smart_tabs               = false
 ij_visual_guides            = 79, 119
 ij_wrap_on_typing           = false
 
+[*.bib]
+indent_size                           = 4
+tab_width                             = 4
+
+ij_visual_guides                      =
+ij_bibtex_keep_first_column_comment   = true
+ij_bibtex_keep_indents_on_empty_lines = false
+ij_bibtex_wrap_long_lines             = false
+
+
 [.editorconfig]
 ij_visual_guides                                   =
 ij_editorconfig_align_group_field_declarations     = true
