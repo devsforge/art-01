@@ -1,2 +1,2 @@
-First steps in IT career
-========================
+Universal Beginner's Guide to the IT 
+====================================
