@@ -1,8 +1,4 @@
 ---
 status: draft
-title: "Обирай розсудливо"
-notes: |
-    Які варіанти пропонує сьогодення.
-    Які плюси та мінуси.
 bibliography: bibliography.bib
 ---
