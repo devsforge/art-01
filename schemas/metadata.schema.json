@@ -1,6 +1,7 @@
 {
   "title": "Pandoc metadata",
   "description": "provides the schema for the pandoc's metadata blocks",
+  "$comment": "seealso: https://pandoc.org/MANUAL.html#metadata-variables",
   "$id": "metadata.schema",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
@@ -49,12 +50,75 @@
     },
     "category": {
       "type": "string"
+    },
+    "lang": {
+      "$ref": "#/$defs/lang",
+      "type": "string",
+      "description": "identifies the main language of the document using IETF language tags"
+    },
+    "dir": {
+      "type": "string",
+      "enum": [
+        "rtl",
+        "ltr"
+      ],
+      "description": "the base script direction"
+    },
+    "mainfont": {
+      "type": "string"
+    },
+    "monofont": {
+      "type": "string"
+    },
+    "fontsize": {
+      "type": "string"
+    },
+    "documentclass": {
+      "type": "string"
+    },
+    "geometry": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "papersize": {
+      "type": "string"
+    },
+    "lof": {
+      "type": "string"
+    },
+    "lot": {
+      "type": "string"
+    },
+    "thanks": {
+      "type": "string"
+    },
+    "toc": {
+      "type": "boolean"
+    },
+    "toc-depth": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6
+    },
+    "link-citations": {
+      "type": "boolean"
+    },
+    "link-bibliography": {
+      "type": "boolean"
     }
   },
   "$defs": {
     "author": {
       "type": "string",
       "minLength": 3
+    },
+    "lang": {
+      "enum": [
+        "en",
+        "uk"
+      ]
     }
   }
 }
