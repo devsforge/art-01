@@ -2,5 +2,59 @@
   "title": "Pandoc metadata",
   "description": "provides the schema for the pandoc's metadata blocks",
   "$id": "metadata.schema",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "author": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/author"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/author"
+          },
+          "minItems": 1
+        }
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "abstract": {
+      "type": "string"
+    },
+    "abstract-title": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "subject": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "author": {
+      "type": "string",
+      "minLength": 3
+    }
+  }
 }
