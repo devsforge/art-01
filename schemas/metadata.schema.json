@@ -1,0 +1,6 @@
+{
+  "title": "Pandoc metadata",
+  "description": "provides the schema for the pandoc's metadata blocks",
+  "$id": "metadata.schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}
