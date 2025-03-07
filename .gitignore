@@ -27,3 +27,11 @@ desktop.ini
 ### Developer's notes
 /notebooks/
 /notes/
+
+### Builds and distributions template
+_builds/
+_build/
+builds/
+build/
+dist/
+public/
