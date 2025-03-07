@@ -107,9 +107,15 @@
     },
     "link-bibliography": {
       "type": "boolean"
+    },
+    "reference-section-title": {
+      "type": "string"
     }
   },
-  "required": ["title", "author"],
+  "required": [
+    "title",
+    "author"
+  ],
   "additionalProperties": true,
   "$defs": {
     "author": {
