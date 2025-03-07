@@ -109,6 +109,8 @@
       "type": "boolean"
     }
   },
+  "required": ["title", "author"],
+  "additionalProperties": true,
   "$defs": {
     "author": {
       "type": "string",
