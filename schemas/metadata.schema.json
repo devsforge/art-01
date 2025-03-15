@@ -13,6 +13,7 @@
       "type": "string"
     },
     "author": {
+      "description": "the article author(s)",
       "anyOf": [
         {
           "$ref": "#/$defs/author"
@@ -27,47 +28,56 @@
       ]
     },
     "date": {
+      "description": "article publication date",
       "type": "string",
       "format": "date"
     },
     "abstract": {
+      "description": "the short summary of an article",
       "type": "string"
     },
     "abstract-title": {
+      "description": "the abstract title line",
       "type": "string"
     },
     "keywords": {
+      "description": "the list of keywords for an article",
       "type": "array",
       "items": {
         "type": "string"
       }
     },
     "subject": {
+      "description": "the subject of an article",
       "type": "string"
     },
     "description": {
+      "description": "the description of an article",
       "type": "string"
     },
     "category": {
       "type": "string"
     },
     "lang": {
+      "description": "identifies the main language of the document using IETF language tags",
       "$ref": "#/$defs/lang",
-      "type": "string",
-      "description": "identifies the main language of the document using IETF language tags"
+      "type": "string"
     },
     "dir": {
+      "description": "the base script direction: ltr (left-to-right) or rtl (right-to-left)",
       "type": "string",
       "enum": [
         "rtl",
         "ltr"
       ],
-      "description": "the base script direction"
+      "default": "ltr"
     },
     "mainfont": {
+      "description": "main paper font family",
       "type": "string"
     },
     "monofont": {
+      "description": "monospace font family",
       "type": "string"
     },
     "fontsize": {

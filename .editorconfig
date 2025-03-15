@@ -17,6 +17,9 @@ ij_smart_tabs               = false
 ij_visual_guides            = 79, 119
 ij_wrap_on_typing           = false
 
+[src/*.txt]
+indent_size = 4
+
 [*.bib]
 indent_size                           = 4
 tab_width                             = 4

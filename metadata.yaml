@@ -4,14 +4,21 @@ author: Сергій Городілов
 documentclass: article
 lang: uk
 
+subject: The guide for IT beginners
+keywords:
+  - beginner
+  - guide
+
+papersize: a4
 mainfont: DejaVu Sans
 monofont: DejaVu Sans Mono
 
 toc: true
 toc-depth: 2
 
-papersize: a4
-
 reference-section-title: Посилання
 link-bibliography: true
 link-citations: true
+
+abstract: |
+  ...
