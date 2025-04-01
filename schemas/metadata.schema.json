@@ -129,8 +129,44 @@
   "additionalProperties": true,
   "$defs": {
     "author": {
-      "type": "string",
-      "minLength": 3
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 3
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "orcid": {
+              "type": "string"
+            },
+            "roles": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "Conceptualization",
+                  "Data curation",
+                  "Formal analysis",
+                  "Funding acquisition",
+                  "Investigation",
+                  "Methodology",
+                  "Project administration",
+                  "Resources",
+                  "Software",
+                  "Supervision",
+                  "Validation",
+                  "Visualization",
+                  "Writing – original draft",
+                  "Writing – review & editing"
+                ]
+              }
+            }
+          }
+        }
+      ]
     },
     "lang": {
       "enum": [
