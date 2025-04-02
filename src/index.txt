@@ -1,3 +1,6 @@
+:date: $date
+:version: draft
+
 Введення
 ========
 
