@@ -1,8 +1,9 @@
 title: Ввійти в IT
 subtitle: універсальний посібник для початківців
-author:
-  name: Сергій Городілов
-  orcid: 0009-0003-4050-9135
+#author:
+#  name: Сергій Городілов
+#  orcid: 0009-0003-4050-9135
+author: Сергій Городілов
 documentclass: article
 lang: uk
 
@@ -22,5 +23,6 @@ reference-section-title: Посилання
 link-bibliography: true
 link-citations: true
 
+# TODO: add abstract
 abstract: |
-  ...
+  TBD...
