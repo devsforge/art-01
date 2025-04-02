@@ -20,3 +20,4 @@
 вам не здається. У таких випадках я раджу повернутись сюди, так прочитати
 
 .. include:: disclaimer.txt
+.. include:: section/1-why-it.txt
