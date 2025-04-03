@@ -1,5 +1,4 @@
-:date: $date
-:version: draft
+:version: 2025.04-dev
 
 ********
 Введення
