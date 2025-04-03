@@ -19,4 +19,9 @@
 А тому, якщо вам здається, що якісь частини не стикуються - цілком можливо, що
 вам не здається. У таких випадках я раджу повернутись сюди, так прочитати
 
-.. include:: disclaimer.txt
+.. include:: section/disclaimer.txt
+.. include:: section/1.txt
+.. include:: section/2.txt
+.. include:: section/3.txt
+.. include:: section/4.txt
+.. include:: section/conclusion.txt
