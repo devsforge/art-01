@@ -120,6 +120,9 @@
     },
     "reference-section-title": {
       "type": "string"
+    },
+    "nocite": {
+      "type": "string"
     }
   },
   "required": [
